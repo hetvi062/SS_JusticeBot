@@ -1,0 +1,218 @@
+version: "3.1"
+
+stories:
+- story: memorandum_of_procedure_info
+  steps:
+  - intent: memorandum_of_procedure
+  - action: utter_memorandum_of_procedure
+
+- story: chief_justice_appointment_info
+  steps:
+  - intent: chief_justice_appointment
+  - action: utter_chief_justice_appointment
+
+- story: supreme_court_judges_appointment_info
+  steps:
+  - intent: supreme_court_judges_appointment
+  - action: utter_supreme_court_judges_appointment
+
+- story: acting_chief_justice_appointment_info
+  steps:
+  - intent: acting_chief_justice_appointment
+  - action: utter_acting_chief_justice_appointment
+
+- story: ad_hoc_judges_appointment_info
+  steps:
+  - intent: ad_hoc_judges_appointment
+  - action: utter_ad_hoc_judges_appointment
+
+- story: retired_judges_attendance_info
+  steps:
+  - intent: retired_judges_attendance
+  - action: utter_retired_judges_attendance
+
+- story: high_court_judges_appointment_info
+  steps:
+  - intent: high_court_judges_appointment
+  - action: utter_high_court_judges_appointment
+
+- story: family_court_info
+  steps:
+  - intent: family_court
+  - action: utter_family_court
+
+- story: fast_track_court_info
+  steps:
+  - intent: fast_track_court
+  - action: utter_fast_track_court
+
+- story: judicial_pay_commission_info
+  steps:
+  - intent: judicial_pay_commission
+  - action: utter_judicial_pay_commission
+
+- story: about_us_info
+  steps:
+  - intent: about_us
+  - action: utter_about_us
+
+- story: ecourt_phase_info
+  steps:
+  - intent: ecourt_phase
+  - action: utter_ecourt_phase
+
+- story: laptop_distribution_info
+  steps:
+  - intent: laptop_distribution
+  - action: utter_laptop_distribution
+
+- story: virtual_courts_info
+  steps:
+  - intent: virtual_courts
+  - action: utter_virtual_courts
+
+- story: phase_three_info
+  steps:
+  - intent: phase_three
+  - action: utter_phase_three
+
+- story: expected_outcomes_info
+  steps:
+  - intent: expected_outcomes
+  - action: utter_expected_outcomes
+
+- story: ecourt_achievements_info
+  steps:
+  - intent: ecourt_achievements
+  - action: utter_ecourt_achievements
+
+- story: njdg_info
+  steps:
+  - intent: njdg
+  - action: utter_njdg
+
+- story: virtual_courts_implementation_info
+  steps:
+  - intent: virtual_courts_implementation
+  - action: utter_virtual_courts_implementation
+
+- story: video_conferencing_info
+  steps:
+  - intent: video_conferencing
+  - action: utter_video_conferencing
+
+- story: live_streaming_info
+  steps:
+  - intent: live_streaming
+  - action: utter_live_streaming
+
+- story: efilling_info
+  steps:
+  - intent: efilling
+  - action: utter_efilling
+
+- story: e_payments_info
+  steps:
+  - intent: e_payments
+  - action: utter_e_payments
+
+- story: esewa_kendra_info
+  steps:
+  - intent: esewa_kendra
+  - action: utter_esewa_kendra
+
+- story: judgment_search_info
+  steps:
+  - intent: judgment_search
+  - action: utter_judgment_search
+
+- story: nstep_info
+  steps:
+  - intent: nstep
+  - action: utter_nstep
+
+- story: justice_clock_info
+  steps:
+  - intent: justice_clock
+  - action: utter_justice_clock
+
+- story: s3_waas_info
+  steps:
+  - intent: s3_waas
+  - action: utter_s3_waas
+
+- story: digitization_of_records_info
+  steps:
+  - intent: digitization_of_records
+  - action: utter_digitization_of_records
+
+- story: ecourt_services_info
+  steps:
+  - intent: ecourt_services
+  - action: utter_ecourt_services
+
+- story: awards_and_recognition_info
+  steps:
+  - intent: awards_and_recognition
+  - action: utter_awards_and_recognition
+
+- story: greet user
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: explain Tele-Law
+  steps:
+    - intent: ask_about_tele_law
+    - action: utter_ask_about_tele_law
+
+- story: explain Nyaya Bandhu
+  steps:
+    - intent: ask_about_nyaya_bandhu
+    - action: utter_ask_about_nyaya_bandhu
+
+- story: explain legal literacy
+  steps:
+    - intent: ask_about_legal_literacy
+    - action: utter_ask_about_legal_literacy
+
+- story: express thanks
+  steps:
+    - intent: thanks
+    - action: utter_thanks
+
+
+# - story: History_Of_Justice 
+#   steps: 
+#     - intent:   History_Of_Justice 
+#     - action: utter_History_Of_Justice 
+    
+# - story: About_Department_of_Indian_Justice 
+#   steps:  
+#     - intent: About_Department_of_Indian_Justice 
+#     - action: utter_ About_Department_of_Indian_Justice 
+    
+# - story: Vision_and_Mission_of_Indian_Justice  
+#   steps: 
+#     - intent: Vision_and_Mission_of_Indian_Justice  
+#     - action: utter_ Vision_and_Mission_of_Indian_Justice  
+    
+# - story: Functions_of_Department_of_Justice 
+#   steps: 
+#     - intent: Functions_of_Department_of_Justice  
+#     - action: utter_Functions_of_Department_of_Justice  
+    
+# - story: Administrative_Setup 
+#   steps: 
+#     - intent: Administrative_Setup 
+#     - action: utter_ Administrative_Setup 
+
+# - story: Website_Information_Manager 
+#   steps: 
+#     - intent: Website_Information_Manager 
+#     - action: utter_Website_Information_Manager 

@@ -1,0 +1,185 @@
+version: "3.1"
+intents:
+  - memorandum_of_procedure
+  - chief_justice_appointment
+  - supreme_court_judges_appointment
+  - acting_chief_justice_appointment
+  - ad_hoc_judges_appointment
+  - retired_judges_attendance
+  - high_court_judges_appointment
+  - family_court
+  - fast_track_court
+  - judicial_pay_commission
+  - about_us
+  - ecourt_phase
+  - laptop_distribution
+  - virtual_courts
+  - phase_three
+  - expected_outcomes
+  - ecourt_achievements
+  - njdg
+  - virtual_courts_implementation
+  - video_conferencing
+  - live_streaming
+  - efilling
+  - e_payments
+  - esewa_kendra
+  - judgment_search
+  - nstep
+  - justice_clock
+  - s3_waas
+  - digitization_of_records
+  - ecourt_services
+  - awards_and_recognition
+  - greet
+  - goodbye
+  - ask_about_tele_law
+  - ask_about_nyaya_bandhu
+  - ask_about_legal_literacy
+  - thanks
+  
+
+responses:
+  utter_memorandum_of_procedure:
+    - text: "The Chief Justice of India and the Judges of the Supreme Court are appointed by the President under Article 124 of the Constitution. The Chief Justice's appointment must be of the senior-most Judge considered fit for the role."
+
+  utter_chief_justice_appointment:
+    - text: "The appointment of a Chief Justice of India is typically recommended by the outgoing Chief Justice. The President makes the final appointment."
+
+  utter_supreme_court_judges_appointment:
+    - text: "When a vacancy arises, the Chief Justice of India, in consultation with a collegium of senior judges, recommends the appointment of new Supreme Court judges to the President."
+
+  utter_acting_chief_justice_appointment:
+    - text: "Under Article 126, the President appoints the senior-most available Judge as Acting Chief Justice in case of a vacancy."
+
+  utter_ad_hoc_judges_appointment:
+    - text: "Under Article 127, ad hoc Judges are appointed to the Supreme Court when there is not a quorum. These appointments are made with the consent of the President."
+
+  utter_retired_judges_attendance:
+    - text: "Under Article 128, retired Judges can be invited by the Chief Justice of India to attend Supreme Court sittings with the President's consent."
+
+  utter_high_court_judges_appointment:
+    - text: "Judges of High Courts are appointed by the President under Article 217, based on recommendations made by the Chief Justice of India and the collegium."
+
+  utter_family_court:
+    - text: "Family Courts, under the Family Courts Act of 1984, aim to promote conciliation and speedy settlement of disputes related to marriage and family affairs."
+
+  utter_fast_track_court:
+    - text: "Fast Track Courts (FTCs) are dedicated to cases of heinous crimes and civil matters related to vulnerable groups. As of 2024, there are 866 functional FTCs across the country."
+
+  utter_judicial_pay_commission:
+    - text: "The Second National Judicial Pay Commission was constituted in 2017 to review the pay scales and conditions of judicial officers. Recommendations are still under consideration by the Supreme Court."
+  utter_about_us:
+    - text: "The eCourts project, part of the National eGovernance Plan, started in 2007 to implement ICT in the Indian judiciary. Over 14,249 courts have been computerized, and various technological advancements have been made."
+
+  utter_ecourt_phase:
+    - text: "Phase I and II of the eCourts project introduced video conferencing, centralized case information systems, and digital court records. Phase III aims to achieve maximum ease of justice through digital, online, and paperless courts."
+
+  utter_laptop_distribution:
+    - text: "Laptops were provided to 14,309 judicial officers under the eCourts project to enhance digital capabilities in courts."
+
+  utter_virtual_courts:
+    - text: "Virtual courts handle petty traffic offenses, reducing physical presence requirements for litigants and judges, and promoting efficient judicial processes."
+
+  utter_phase_three:
+    - text: "Phase III focuses on expanding digital services, eFiling, and AI-based tools to support data-driven decisions, creating a unified digital platform for the judiciary."
+
+  utter_expected_outcomes:
+    - text: "Expected outcomes include improved access to judicial services, digitization of records, virtual participation in court proceedings, and use of AI for smoother processes."
+
+  utter_ecourt_achievements:
+    - text: "The eCourts project has achieved computerization and WAN connectivity in courts across the country, including remote areas using alternative means."
+
+  utter_njdg:
+    - text: "The National Judicial Data Grid (NJDG) provides real-time data for 18,735 courts, including case status and orders, facilitating better case management and monitoring."
+
+  utter_virtual_courts_implementation:
+    - text: "Virtual courts are operational in 28 locations across 21 states, handling over 5.26 crore cases and realizing over Rs. 579.40 crores in fines."
+
+  utter_video_conferencing:
+    - text: "Video conferencing was extensively used during the COVID-19 lockdown, with over 3.22 crore cases heard virtually across all courts."
+
+  utter_live_streaming:
+    - text: "Live streaming of court proceedings is now available in several High Courts and the Supreme Court, providing transparency and public access."
+
+  utter_efilling:
+    - text: "The eFiling system allows for 24/7 submission of legal papers, reducing the need for physical presence in courts and minimizing errors in documentation."
+
+  utter_e_payments:
+    - text: "e-Payments enable online payment of court fees, fines, and penalties, enhancing convenience and efficiency in court transactions."
+
+  utter_esewa_kendra:
+    - text: "eSewa Kendras provide eFiling services and assistance to litigants and lawyers, bridging the digital divide in court services."
+
+  utter_judgment_search:
+    - text: "The Judgment Search Portal provides easy access to High Court judgments, searchable by various criteria, facilitating legal research and transparency."
+
+  utter_nstep:
+    - text: "NSTEP provides GPS-enabled devices for process serving, improving the speed and transparency of summons delivery."
+
+  utter_justice_clock:
+    - text: "Justice Clocks display court performance and case statistics to the public, promoting awareness and transparency in the judiciary."
+
+  utter_s3_waas:
+    - text: "The S3 WAAS platform enables secure and accessible court websites in multiple languages, including support for Divyang users."
+
+  utter_digitization_of_records:
+    - text: "Digitization of court records is underway to create digital repositories, improving access and preservation of legal documents."
+
+  utter_ecourt_services:
+    - text: "eCourt services provide real-time case information and notifications through multiple channels, including SMS, email, and mobile apps."
+
+  utter_awards_and_recognition:
+    - text: "The eCourts project has received several awards for its excellence in digital governance and citizen-centric services."
+   
+  utter_greet:
+    - text: "Hello! How can I assist you with legal information today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Feel free to reach out if you have more questions."
+
+  utter_thanks:
+    - text: "You're welcome! I'm happy to help."
+
+  utter_ask_about_tele_law:
+    - text: "Tele-Law is an e-interface platform to empower people through pre-litigation advice. "
+
+  utter_ask_about_nyaya_bandhu:
+    - text: "Nyaya Bandhu provides pro bono legal services through a dedicated mobile app. "
+
+  utter_ask_about_legal_literacy:
+    - text: "Legal literacy and awareness programs aim to educate vulnerable sections of society about their legal rights. "
+
+  # utter_ History_Of_Justice: 
+  #   - text: " The History of Justice, initially part of the Ministry of Home Affairs, became a separate entity under the Ministry of Law & Justice in 2010 to handle judicial reforms, appointments, and legal matters more efficiently. "  
+  
+  # utter_ About_Department_of_Indian_Justice: 
+  # - text: "The Department of Justice, part of the Ministry of Law & Justice since January 1, 2010, was originally under the Ministry of Home Affairs. It handles appointments, resignations, and service matters of judges, and oversees key initiatives like infrastructure development for courts, fast-track courts, and the E-court Project. It also provides legal aid and supports judicial reforms across the country. " 
+  
+  # utter_Vision_and_Mission_of_Indian_Justice : 
+  #  - text: "The  Vision and Mission Of Indian Justice Ensure timely and accessible justice for everyone and Strengthen judiciary by improving court infrastructure, judicial appointments, modernization, and providing legal aid to the poor"
+
+  # utter_Functions_of_Department_of_Justice:
+  #  - text: " The Functions of Department manages judge appointments, judicial reforms, court modernization, case monitoring, and legal aid services. It also supports Fast Track Courts, the eCourts Project, and initiatives like DISHA to enhance access to justice."  
+ 
+  # utter_Administrative_Setup: 
+  #  - text: " The Department’s Joint Secretaries handle key tasks like judge appointments, judicial reforms, eCourts Project, Fast Track Courts, legal aid, and court infrastructure. They also focus on judicial accountability, pendency reduction, ease of doing business, and administration of judicial acts."
+  
+  # utter_Website_Information_Manager: 
+  #  - text: "The Website Information Manager oversees the management and maintenance of the department's website The manager also handles inquiries and technical issues related to the website, enhancing online engagement and support for users seeking legal and judicial information." 
+
+
+entities:
+  - phase
+  - state
+  - service
+
+actions:
+  - action_fetch_phase
+  - action_fetch_state
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+

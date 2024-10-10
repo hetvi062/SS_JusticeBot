@@ -1,0 +1,242 @@
+version: "3.1"
+nlu:
+
+  - intent: memorandum_of_procedure
+    examples: |
+      - What is the procedure for appointing Supreme Court judges?
+      - Tell me about the memorandum of procedure for appointing judges.
+      - How are Supreme Court judges appointed in India?
+      - Who is responsible for the appointment of judges to the Supreme Court?
+
+  - intent: chief_justice_appointment
+    examples: |
+      - How is the Chief Justice of India appointed?
+      - Who appoints the Chief Justice of India?
+      - What is the process of appointing the Chief Justice of India?
+      - How is the senior-most judge selected as the Chief Justice?
+
+  - intent: supreme_court_judges_appointment
+    examples: |
+      - How are Supreme Court judges appointed?
+      - What is the role of the collegium in appointing judges?
+      - Who recommends the appointment of Supreme Court judges?
+      - How does the Chief Justice of India select judges for the Supreme Court?
+
+  - intent: acting_chief_justice_appointment
+    examples: |
+      - How is an acting Chief Justice appointed?
+      - Who takes over when there is no Chief Justice?
+      - What is the process for appointing an acting Chief Justice of India?
+      - When is the Acting Chief Justice of India appointed?
+
+  - intent: ad_hoc_judges_appointment
+    examples: |
+      - What is an ad hoc judge?
+      - How are ad hoc judges appointed to the Supreme Court?
+      - When are ad hoc judges needed?
+      - What is the procedure for appointing an ad hoc judge?
+
+  - intent: retired_judges_attendance
+    examples: |
+      - Can retired judges sit in the Supreme Court?
+      - How are retired judges appointed to attend Supreme Court sittings?
+      - What is the process for requesting retired judges to sit in the Supreme Court?
+      - When can retired judges participate in court sittings?
+
+  - intent: high_court_judges_appointment
+    examples: |
+      - How are High Court judges appointed?
+      - What is the process for appointing High Court judges in India?
+      - Who appoints judges to the High Court?
+      - What is the procedure for appointing permanent judges to High Courts?
+
+  - intent: family_court
+    examples: |
+      - What is the Family Court?
+      - How are Family Courts set up?
+      - What is the role of Family Courts in India?
+      - Where are Family Courts established?
+
+  - intent: fast_track_court
+    examples: |
+      - What are Fast Track Courts?
+      - How do Fast Track Courts work in India?
+      - How many Fast Track Courts are functional in India?
+      - What is the purpose of Fast Track Courts?
+
+  - intent: judicial_pay_commission
+    examples: |
+      - What is the National Judicial Pay Commission?
+      - What are the recommendations of the Second Judicial Pay Commission?
+      - How does the Judicial Pay Commission impact judges' salaries?
+      - What is the role of the Judicial Pay Commission in revising judicial pay?
+
+  - intent: about_us
+    examples: |
+      - Tell me about eCourts.
+      - What is the eCourt project?
+      - Can you explain the eCourts initiative?
+      - What is the purpose of eCourts?
+
+  - intent: ecourt_phase
+    examples: |
+      - What are the different phases of the eCourts project?
+      - Tell me about Phase I and Phase II of eCourts.
+      - What is covered in eCourts Phase III?
+      - Explain the phases of the eCourts project.
+
+  - intent: laptop_distribution
+    examples: |
+      - How many laptops were distributed in the eCourts project?
+      - Who received laptops under eCourts?
+      - What was the purpose of laptop distribution in eCourts?
+
+  - intent: virtual_courts
+    examples: |
+      - What are virtual courts in the eCourts project?
+      - How do virtual courts work?
+      - Which cases are handled by virtual courts?
+
+  - intent: phase_three
+    examples: |
+      - What is the aim of eCourts Phase III?
+      - What advancements are planned in Phase III of eCourts?
+      - Tell me about the objectives of eCourts Phase III.
+
+  - intent: expected_outcomes
+    examples: |
+      - What are the expected outcomes of the eCourts project?
+      - What benefits will eCourts Phase III provide?
+      - How will eCourts Phase III improve the judicial system?
+
+  - intent: ecourt_achievements
+    examples: |
+      - What are the achievements of the eCourts project?
+      - What progress has been made under the eCourts initiative?
+      - Can you list some achievements of the eCourts project?
+
+  - intent: njdg
+    examples: |
+      - What is the National Judicial Data Grid?
+      - How does NJDG work?
+      - What information is available on the NJDG?
+
+  - intent: virtual_courts_implementation
+    examples: |
+      - How many virtual courts are there?
+      - What is the status of virtual courts in India?
+      - How many cases have been handled by virtual courts?
+
+  - intent: video_conferencing
+    examples: |
+      - How has video conferencing been used in courts?
+      - What is the role of video conferencing in eCourts?
+      - How many cases were heard through video conferencing?
+
+  - intent: live_streaming
+    examples: |
+      - Is live streaming available in courts?
+      - Which courts provide live streaming of proceedings?
+      - How can I access live streaming of court proceedings?
+
+  - intent: efilling
+    examples: |
+      - What is the eFiling system?
+      - How does eFiling work in courts?
+      - Can I file my case online?
+
+  - intent: e_payments
+    examples: |
+      - How do I pay court fees online?
+      - What is the e-Payments system in courts?
+      - Can I pay fines and penalties online?
+
+  - intent: esewa_kendra
+    examples: |
+      - What are eSewa Kendras?
+      - How do eSewa Kendras help litigants?
+      - What services are provided by eSewa Kendras?
+
+  - intent: judgment_search
+    examples: |
+      - How do I search for a court judgment?
+      - What is the Judgment Search Portal?
+      - Can I search for High Court judgments online?
+
+  - intent: nstep
+    examples: |
+      - What is the NSTEP initiative?
+      - How does NSTEP improve summons delivery?
+      - What is the role of NSTEP in the judiciary?
+
+  - intent: justice_clock
+    examples: |
+      - What is the Justice Clock?
+      - How does the Justice Clock work?
+      - Where can I see the Justice Clock?
+
+  - intent: s3_waas
+    examples: |
+      - What is the S3 WAAS platform?
+      - How does S3 WAAS improve court websites?
+      - What are the features of the S3 WAAS platform?
+
+  - intent: digitization_of_records
+    examples: |
+      - How are court records digitized?
+      - What is the Judicial Digital Repository?
+      - How does digitization help the judiciary?
+
+  - intent: ecourt_services
+    examples: |
+      - What services are provided under eCourts?
+      - How can I access eCourt services?
+      - What are the different platforms under eCourts?
+
+  - intent: awards_and_recognition
+    examples: |
+      - What awards has the eCourts project won?
+      - Has eCourts received any recognition?
+      - What achievements has eCourts been recognized for?
+
+  - intent: greet
+    examples: |
+      - Hello
+      - Hi
+      - Good morning
+      - Hey
+
+  - intent: goodbye
+    examples: |
+      - Goodbye
+      - See you later
+      - Bye
+
+  - intent: ask_about_tele_law
+    examples: |
+      - Tell me about Tele-Law
+      - What is Tele-Law?
+      - How does Tele-Law work?
+      - Explain Tele-Law services
+
+  - intent: ask_about_nyaya_bandhu
+    examples: |
+      - What is Nyaya Bandhu?
+      - Explain Nyaya Bandhu
+      - Tell me about pro bono legal services
+      - What is the Nyaya Bandhu app?
+
+  - intent: ask_about_legal_literacy
+    examples: |
+      - What is legal literacy?
+      - Explain legal awareness programs
+      - How does legal literacy work?
+
+  - intent: thanks
+    examples: |
+      - Thanks
+      - Thank you
+      - Appreciate it
+ 
+
+ 
